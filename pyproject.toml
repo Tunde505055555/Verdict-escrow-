@@ -1,0 +1,10 @@
+[project]
+name = "verdict-escrow"
+version = "1.0.0"
+description = "VerdictEscrow — an evidence-grounded adjudication primitive for GenLayer"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

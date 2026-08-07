@@ -1,0 +1,5 @@
+# Contract tooling and tests.
+# The contract itself has no dependencies beyond the GenVM Python SDK,
+# which is provided by the runtime (see the `Depends` header in the contract).
+genlayer-py>=0.5.0
+pytest>=8.0
